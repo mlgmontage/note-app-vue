@@ -7,6 +7,9 @@
       <div class="nav-item">
         <router-link class="nav-link text-muted" to="/about">About</router-link>
       </div>
+      <div class="nav-item">
+        <router-link class="nav-link text-muted" to="/register">Register</router-link>
+      </div>
     </div>
     <router-view />
   </div>
