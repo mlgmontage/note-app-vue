@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <div>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="container">
+    <div class="nav bg-dark">
+      <div class="nav-item">
+        <router-link class="nav-link text-muted" to="/">Home</router-link>
+      </div>
+      <div class="nav-item">
+        <router-link class="nav-link text-muted" to="/about">About</router-link>
+      </div>
     </div>
     <router-view />
   </div>
